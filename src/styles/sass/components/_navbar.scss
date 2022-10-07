@@ -1,0 +1,14 @@
+body {
+    & #root {
+        .accueil {
+            & .Navbar {
+                display: flex;
+                background-color: black;
+                & .exp p {
+                    color : red;
+                }
+            }
+        }
+    }
+}
+
