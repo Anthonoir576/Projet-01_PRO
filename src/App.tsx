@@ -1,15 +1,15 @@
-import React from 'react';
-
+import React                                from 'react';
+import { Routes, Route, BrowserRouter, Navigate }     from 'react-router-dom';
+import Accueil                              from './pages/Accueil';  
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          SALUT cv
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/accueil'             element  ={ <Accueil                        /> } />
+        <Route path='*'                    element  ={ <Navigate replace to='/accueil' /> } />
+      </Routes>
+  </BrowserRouter>
   );
 }
 
