@@ -7,8 +7,16 @@ body {
             background-color : rgba(29, 34, 62, 1);
 
             & a {
+                display : block;
                 padding : 0 1rem;
                 color   : white;
+            }
+
+            &.active {
+                color: rgb(242, 76, 76);
+                & ::first-letter {
+                    
+                }
             }
         }
     }
