@@ -1,1 +1,1 @@
-*{margin:0;padding:0;border:0;font-family:sans-serif;font-size:1em;font-weight:normal;font-style:normal;text-decoration:none}body #root .accueil .Navbar{display:flex;background-color:#000}body #root .accueil .Navbar .exp p{color:red}/*# sourceMappingURL=style.css.map */
+*{margin:0;padding:0;border:0;font-family:sans-serif;font-size:1em;font-weight:normal;font-style:normal;text-decoration:none}body #root .Navbar{display:flex;padding:.65rem;justify-content:flex-end;background-color:rgba(0,0,0,.13)}body #root .Navbar .exp-nav p{color:red}/*# sourceMappingURL=style.css.map */

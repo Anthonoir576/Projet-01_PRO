@@ -2,7 +2,8 @@
 //- ########################################################
 //- --------------------- IMPORT ---------------------------
 //- ######################################################## 
-import React from "react";
+import React       from "react";
+import { NavLink } from "react-router-dom";
 //- --------------------------------------------------------
 //- ########################################################
 
@@ -15,13 +16,19 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="accueil-nav">
-        <p>Accueil</p>
+        <NavLink to='/accueil' aria-label='accueil cv web'>
+            Accueil
+        </NavLink>
       </div>
       <div className="exp-nav">
-        <p>Expérience</p>
+        <NavLink to='/experience' aria-label='experience professionnelle'>
+            Expérience
+        </NavLink>
       </div>
       <div className="contact-nav">
-        <p>Contact</p>
+        <NavLink to='/contact' aria-label='contact professionnelle'>
+            Contact
+        </NavLink>
       </div>
     </div>
   );

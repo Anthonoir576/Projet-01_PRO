@@ -1,14 +1,14 @@
 body {
     & #root {
-        .accueil {
-            & .Navbar {
-                display: flex;
-                background-color: black;
-                & .exp p {
-                    color : red;
-                }
+        & .Navbar {
+            display: flex;
+            padding: .65rem;
+            justify-content: flex-end;
+            background-color: rgba(0, 0, 0, 0.13);
+
+            & .exp-nav p {
+                color: red;
             }
         }
     }
 }
-
