@@ -2,6 +2,7 @@
 //- --------------------- IMPORT ---------------------------
 //- ########################################################
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 //- --------------------------------------------------------
 //- ########################################################
@@ -11,19 +12,17 @@ import Navbar from "../components/Navbar";
 //* ########################################################
 const Contact = () => {
   return (
-    <div>
+    <div className="all">
       <Navbar />
-      <div className="img-contact">
-        <img
-          src="https://github.com/Anthonoir576/Projet-01_PRO/blob/master/public/assets/images/photo-profil.jpg?raw=true"
-          alt="profil Emelyne Wojdowski"
-        />
-      </div>
       <div className="information-contact">
         <div className="information-container">
-          <div className="information-icon">
-            
+          <div className="img-contact">
+            <img
+              src="https://github.com/Anthonoir576/Projet-01_PRO/blob/master/public/assets/images/photo-profil.jpg?raw=true"
+              alt="profil Emelyne Wojdowski"
+            />
           </div>
+          <div className="information-icon"></div>
           <div className="information-txt">
             <p>06 64 23 45 67</p>
             <p>wojdowskiemy@gmail.com</p>
@@ -34,6 +33,9 @@ const Contact = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="second">
+        <Footer />
       </div>
     </div>
   );

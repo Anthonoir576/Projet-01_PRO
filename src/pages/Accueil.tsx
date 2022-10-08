@@ -38,7 +38,7 @@ const Accueil = () => {
             </div>
           </div>
         </div>
-        <div className="accueil-second">
+        <div className="accueil-second second">
             <Footer />
         </div>
       </div>
