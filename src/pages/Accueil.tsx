@@ -17,7 +17,7 @@ const Accueil = () => {
         <div className='accueil'>
             <Navbar />
             <div className="img-accueil">
-                <img src="https://github.com/Anthonoir576/Projet-01_PRO/blob/master/public/assets/images/photoprofil.jpg?raw=true" alt="profil emy" />
+                <img src="https://github.com/Anthonoir576/Projet-01_PRO/blob/master/public/assets/images/photo-profil.jpg?raw=true" alt="profil Emelyne Wojdowski" />
             </div>
         </div>
     );
