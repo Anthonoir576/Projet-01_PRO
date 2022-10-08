@@ -1,13 +1,14 @@
 body {
     & #root {
         & .Navbar {
-            display: flex;
-            padding: .65rem;
-            justify-content: flex-end;
-            background-color: rgba(0, 0, 0, 0.13);
+            display          : flex;
+            padding          : .65rem;
+            justify-content  : flex-end;
+            background-color : rgba(29, 34, 62, 1);
 
-            & .exp-nav p {
-                color: red;
+            & a {
+                padding : 0 1rem;
+                color   : white;
             }
         }
     }
