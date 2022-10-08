@@ -8,7 +8,9 @@ import { Routes,
          BrowserRouter,
          Navigate
         }                    from 'react-router-dom';
-import Accueil               from './pages/Accueil';  
+import Accueil               from './pages/Accueil';
+import Exp                   from './pages/Exp';
+import Contact               from './pages/Contact';
 //- --------------------------------------------------------
 //- ########################################################
 
@@ -22,6 +24,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/accueil'             element  ={ <Accueil                        /> } />
+        <Route path='/experience'          element  ={ <Exp                            /> } />
+        <Route path='/contact'             element  ={ <Contact                        /> } />
         <Route path='*'                    element  ={ <Navigate replace to='/accueil' /> } />
       </Routes>
   </BrowserRouter>
