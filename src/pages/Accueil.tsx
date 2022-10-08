@@ -16,7 +16,9 @@ const Accueil = () => {
     return (
         <div className='accueil'>
             <Navbar />
-            Accueil
+            <div className="img-accueil">
+                <img src="https://github.com/Anthonoir576/Projet-01_PRO/blob/master/public/assets/images/photoprofil.jpg?raw=true" alt="profil emy" />
+            </div>
         </div>
     );
 };

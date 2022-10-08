@@ -2,7 +2,7 @@ body {
     & #root {
         & .Navbar {
             display          : flex;
-            padding          : .65rem;
+            padding          : 1rem .65rem;
             justify-content  : flex-end;
             background-color : rgba(29, 34, 62, 1);
             border-bottom    : 4px solid rgb(242, 76, 76);
