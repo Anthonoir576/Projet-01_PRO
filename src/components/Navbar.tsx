@@ -14,13 +14,13 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <div className="accueil">
+      <div className="accueil-nav">
         <p>Accueil</p>
       </div>
-      <div className="exp">
+      <div className="exp-nav">
         <p>Expérience</p>
       </div>
-      <div className="contact">
+      <div className="contact-nav">
         <p>Contact</p>
       </div>
     </div>
