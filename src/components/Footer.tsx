@@ -14,7 +14,7 @@ import React       from "react";
 const Footer = () => {
   return (
     <div className="footer">
-        <p>Emelyne WOJDOWSKI</p>
+        <p>Emelyne WOJDOWSKI - <em>Copyright</em> &#xA9; 2022</p>
     </div>
   );
 };
