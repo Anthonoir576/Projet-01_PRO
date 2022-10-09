@@ -132,7 +132,7 @@ const Exp = () => {
                 <p>MAIRIE DE HORNAING</p>
               </div>
               <div className="exp-name">
-                <p>ORNAING Stage accueil</p>
+                <p>Stage accueil</p>
               </div>
               <div className="exp-description">
                 <p> &bull; Accueil</p>
