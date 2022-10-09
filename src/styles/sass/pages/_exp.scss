@@ -14,10 +14,28 @@ body {
         }
 
         & h2 {
-            text-align: center;
-            background: rgb(242, 76, 76);
-            color: white;
-            padding: 15px 5px 10px 5px;
+            background    : rgb(242, 76, 76);
+            text-align    : center;
+            color         : white;
+            padding       : 15px 5px 10px 5px;
+            margin-bottom : 2rem;
+        }
+
+        & .exp-container {
+            & .exp-main {
+                display         : flex;
+                justify-content : center;
+                margin-bottom   : 2rem;
+
+                & .exp-content {
+                    min-width       : 450px;
+                }
+
+                & .exp-date {
+                    margin: auto 2rem auto 0;
+                }
+            }
         }
     }
+
 }
