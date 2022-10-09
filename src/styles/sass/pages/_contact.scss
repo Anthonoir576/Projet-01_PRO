@@ -1,16 +1,21 @@
 body {
     & .all {
-        background: rgba(29, 34, 62, 1);
+        background: rgba(29, 34, 62, 0.99);
         & .information-container {
             display          : flex;
             justify-content  : space-around;
+
+            & .img-contact img {
+                max-height : 245px;
+                border     : 4px solid rgb(242, 76, 76);
+            }
     
             & .information-txt {
                 display : flex;
     
                 & .info-icons {
                     display        : flex;
-                    margin         : 0 1rem 0 auto;
+                    margin         : 0 2rem 0 auto;
                     flex-direction : column;
                     background     : rgb(242, 76, 76);
                     max-height     : 245px;
