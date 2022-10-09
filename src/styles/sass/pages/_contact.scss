@@ -1,9 +1,11 @@
 body {
     & .all {
-        background: rgba(29, 34, 62, 0.99);
         & .information-container {
             display          : flex;
             justify-content  : space-around;
+            background       : rgba(29, 34, 62, 0.99);
+            padding          : 8rem 0;
+            box-shadow       : 0 0 10px 3px rgba(29, 34, 62, 0.55);
 
             & .img-contact img {
                 max-height : 245px;
