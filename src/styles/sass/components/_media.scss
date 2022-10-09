@@ -57,6 +57,19 @@
 @media only screen and (max-width: 650px) {
     body {
         & #root {
+            & .all {
+                & .information-contact {
+                  & .information-container {
+                    display: block;
+                    text-align: left;
+                    & .information-txt {
+                        & .info-icons {
+                            margin: -0.25rem 2rem 0 0;
+                        }
+                    }
+                  }  
+                }
+            }
              & .accueil {
                  & .accueil-first {
                      & .accueil-container {
@@ -157,15 +170,52 @@
         } 
      }
 }
+@media only screen and (max-width: 450px) {
+    body {
+        & #root {
+            & .all {
+                & .information-contact {
+                  & .information-container {
+                    display: block;
+                    text-align: left;
+                    & .information-txt {
+                        & .info-icons {
+                            margin: -0.25rem 2rem 0 0;
+                        }
+                        & .info-txt {
+                            font-size: 1rem;
+                        }
+                    }
+                  }  
+                }
+            }
+        } 
+     }
+}
+@media only screen and (max-width: 450px) {
+    body {
+        & #root {
+            & .all {
+                & .information-contact {
+                  & .information-container {
+                    & .information-txt {
+                        & .info-icons {
+                        }
+                        & .info-txt p {
+                            font-size: 1rem;
+                        }
+                    }
+                  }  
+                }
+            }
+        } 
+     }
+}
 @media only screen and (max-width: 330px) {
     body {
         & #root {
              & .accueil {
                  & .accueil-first {
-                    & .img-accueil {
-
-                    }
-
                      & .accueil-container {
                         & h1 {
                             font-size: 2rem;
