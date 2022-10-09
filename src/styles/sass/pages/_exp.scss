@@ -29,11 +29,21 @@ body {
 
                 & .exp-content {
                     min-width       : 450px;
+
+                    & .exp-title p {
+                        font-family : "Lato", sans-serif;
+                        font-weight : 900;
+                    }
+
+                    & .exp-name p {
+                        color       : rgb(197, 197, 197);
+                    }
                 }
 
                 & .exp-date {
-                    margin: auto 2rem auto 0;
-                    text-align: right;
+                    margin      : auto 2rem auto 0;
+                    text-align  : right; 
+                    color       : rgb(197, 197, 197);
                 }
             }
         }
