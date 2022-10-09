@@ -39,21 +39,37 @@ const Exp = () => {
             </div>
           </div>
           <div className="exp-main">
-            <div className="exp-date">              <p>
+            <div className="exp-date">
+              {" "}
+              <p>
                 10/2018 <br /> 12/2014{" "}
-              </p></div>
+              </p>
+            </div>
             <div className="exp-content">
-              <div className="exp-title"><p>L’AUBERGE DU CHEVAL BLANC Restaurant 2** / Hôtel 3***</p></div>
-              <div className="exp-name"><p>Employée polyvalente</p></div>
-              <div className="exp-description"><p>Commis de salle / Plongeuse <br /> Femme de chambre</p></div>
+              <div className="exp-title">
+                <p>L’AUBERGE DU CHEVAL BLANC Restaurant 2** / Hôtel 3***</p>
+              </div>
+              <div className="exp-name">
+                <p>Employée polyvalente</p>
+              </div>
+              <div className="exp-description">
+                <p>
+                  Commis de salle / Plongeuse <br /> Femme de chambre
+                </p>
+              </div>
             </div>
           </div>
           <div className="exp-main">
-            <div className="exp-date"></div>
+            <div className="exp-date">
+            {" "}
+              <p>
+                11/2014 <br /> 08/2014{" "}
+              </p>
+            </div>
             <div className="exp-content">
-              <div className="exp-title"></div>
-              <div className="exp-name"></div>
-              <div className="exp-description"></div>
+              <div className="exp-title"><p>AUX AIRELLES LA CLUSAZ</p></div>
+              <div className="exp-name"><p>Employée polyvalente</p></div>
+              <div className="exp-description"><p>Serveuse <br />Femme de chambre</p></div>
             </div>
           </div>
           <div className="exp-main">
