@@ -28,7 +28,7 @@ const Accueil = () => {
           <div className="accueil-container">
             <div className="accueil-title">
               <h1>
-                Emelyne &ensp;<strong>WOJDOWSKI</strong>{" "}
+                Emelyne <br/>&ensp;<strong>WOJDOWSKI</strong>{" "}
               </h1>
             </div>
             <div className="aboutMe">
