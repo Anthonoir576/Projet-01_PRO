@@ -1,43 +1,47 @@
 body {
-    & .information-container {
-        display          : flex;
-        justify-content  : space-around;
-
-        & .information-txt {
-            display : flex;
-
-            & .info-icons {
-                display        : flex;
-                margin         : 0 1rem 0 auto;
-                flex-direction : column;
-                background     : rgb(242, 76, 76);
-                max-height     : 245px;
-                border-radius  : 0 0 10px 10px;
-
-                & svg {
-                    margin       : 2rem 1rem 0 1rem;
-                    display      : block;
+    & .all {
+        background: rgba(29, 34, 62, 1);
+        & .information-container {
+            display          : flex;
+            justify-content  : space-around;
+    
+            & .information-txt {
+                display : flex;
+    
+                & .info-icons {
+                    display        : flex;
+                    margin         : 0 1rem 0 auto;
+                    flex-direction : column;
+                    background     : rgb(242, 76, 76);
+                    max-height     : 245px;
+                    border-radius  : 0 0 10px 10px;
+    
+                    & svg {
+                        margin       : 2rem 1rem 0 1rem;
+                        display      : block;
+                    }
+    
+                    & :first-child {
+                        margin-top: 1.5rem;
+                    }
+    
+                    & :last-child {
+                        margin-bottom: .5rem;
+                    }
                 }
-
-                & :first-child {
-                    margin-top: 1.5rem;
-                }
-
-                & :last-child {
-                    margin-bottom: .5rem;
-                }
-            }
-
-            & .info-txt {
-                & p {
-                    font-size  : 1.5rem;
-                    margin     : 2rem 0;
-                }
-                & :first-child {
-                    margin-top: 1.5rem;
-                }
-                & :last-child {
-                    margin-bottom: .5rem;
+    
+                & .info-txt {
+                    & p {
+                        color      : white;
+                        font-size  : 1.5rem;
+                        margin     : 2rem 0;
+                    }
+                    & :first-child {
+                        margin-top: 1.5rem;
+                    }
+                    & :last-child {
+                        margin-bottom: .5rem;
+                    }
                 }
             }
         }
