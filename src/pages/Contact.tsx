@@ -3,11 +3,13 @@
 //- ########################################################
 import React from "react";
 import Footer from "../components/Footer";
+import BiTelephoneFill from "../components/Icons/BiTelephoneFill";
 import Navbar from "../components/Navbar";
+import PepiconsLetter from "../components/Icons/PepiconsLetter";
+import UimFacebookF from "../components/Icons/UimFacebookF";
+import GisPosition from "../components/Icons/GisPosition";
 //- --------------------------------------------------------
 //- ########################################################
-
-
 
 //* ########################################################
 //* ----------------- APP => CONTACT -----------------------
@@ -24,15 +26,22 @@ const Contact = () => {
               alt="profil Emelyne Wojdowski"
             />
           </div>
-          <div className="information-icon"></div>
           <div className="information-txt">
-            <p>06 64 23 45 67</p>
-            <p>wojdowskiemy@gmail.com</p>
-            <p>Emelyne WOJDOWSKI</p>
-            <p>
-              Montigny-En-Ostrevent, 59182, <br />
-              HAUT-DE-FRANCE, FRANCE
-            </p>
+            <div className="info-icons">
+              <BiTelephoneFill />
+              <PepiconsLetter />
+              <UimFacebookF />
+              <GisPosition />
+            </div>
+            <div className="info-txt">
+              <p>06 64 23 45 67</p>
+              <p>wojdowskiemy@gmail.com</p>
+              <p>Emelyne WOJDOWSKI</p>
+              <p>
+                Montigny-En-Ostrevent, 59182, <br />
+                HAUT-DE-FRANCE, FRANCE
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -44,8 +53,6 @@ const Contact = () => {
 };
 //* --------------------------------------------------------
 //* ########################################################
-
-
 
 //~ ########################################################
 //~ --------------------- EXPORT ---------------------------

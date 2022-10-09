@@ -1,5 +1,20 @@
 body {
     & .information-container {
-        display: flex;
+        display          : flex;
+        justify-content  : space-around;
+
+        & .information-txt {
+            display : flex;
+
+            & .info-icons svg {
+                margin       : 2rem 2rem 0 0;
+                display      : block;
+            }
+
+            & .info-txt p {
+                font-size  : 1.5rem;
+                margin     : 2rem 0;
+            }
+        }
     }
 }
