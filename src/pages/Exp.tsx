@@ -61,35 +61,65 @@ const Exp = () => {
           </div>
           <div className="exp-main">
             <div className="exp-date">
-            {" "}
+              {" "}
               <p>
                 11/2014 <br /> 08/2014{" "}
               </p>
             </div>
             <div className="exp-content">
-              <div className="exp-title"><p>AUX AIRELLES LA CLUSAZ</p></div>
-              <div className="exp-name"><p>Employée polyvalente</p></div>
-              <div className="exp-description"><p>Serveuse <br />Femme de chambre</p></div>
+              <div className="exp-title">
+                <p>AUX AIRELLES LA CLUSAZ</p>
+              </div>
+              <div className="exp-name">
+                <p>Employée polyvalente</p>
+              </div>
+              <div className="exp-description">
+                <p>
+                  Serveuse <br />
+                  Femme de chambre
+                </p>
+              </div>
             </div>
           </div>
           <div className="exp-main">
-            <div className="exp-date"></div>
+            <div className="exp-date">
+              {" "}
+              <p>
+                07/2014 <br /> 05/2014{" "}
+              </p>
+            </div>
             <div className="exp-content">
-              <div className="exp-title"></div>
-              <div className="exp-name"></div>
-              <div className="exp-description"></div>
+              <div className="exp-title">
+                <p>RESTAURANT TRADITIONNEL GIGI PIZZA</p>
+              </div>
+              <div className="exp-name">
+                <p>Stage serveuse</p>
+              </div>
+              <div className="exp-description">
+                <p>Serveuse</p>
+              </div>
             </div>
           </div>
           <div className="exp-main">
-            <div className="exp-date"></div>
+            <div className="exp-date">
+            {" "}
+              <p>
+                04/2014 <br /> 03/2014{" "}
+              </p>
+            </div>
             <div className="exp-content">
-              <div className="exp-title"></div>
-              <div className="exp-name"></div>
-              <div className="exp-description"></div>
+              <div className="exp-title"><p>RESTAURANT TRADITIONNEL LE «T» SOMAIN</p></div>
+              <div className="exp-name"><p>Stage serveuse</p></div>
+              <div className="exp-description"><p>Serveuse</p></div>
             </div>
           </div>
           <div className="exp-main">
-            <div className="exp-date"></div>
+            <div className="exp-date">
+            {" "}
+              <p>
+                04/2014 <br /> 03/2014{" "}
+              </p>
+            </div>
             <div className="exp-content">
               <div className="exp-title"></div>
               <div className="exp-name"></div>
