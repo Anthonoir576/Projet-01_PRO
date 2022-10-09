@@ -6,9 +6,18 @@ body {
         & .information-txt {
             display : flex;
 
-            & .info-icons svg {
-                margin       : 2rem 2rem 0 0;
-                display      : block;
+            & .info-icons {
+                display        : flex;
+                margin         : 0 1rem 0 auto;
+                flex-direction : column;
+                background     : rgb(242, 76, 76);
+                max-height     : 255px;
+                border-radius  : 0 0 10px 10px;
+
+                & svg {
+                    margin       : 2rem 1rem 0 1rem;
+                    display      : block;
+                }
             }
 
             & .info-txt p {
