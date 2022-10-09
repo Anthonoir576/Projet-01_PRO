@@ -32,8 +32,8 @@ const Exp = () => {
               </div>
               <div className="exp-description">
                 <p>
-                  Transport - Logistique - CACES 1A <br /> Instructeur,
-                  formation aux postes des intérimaires. - SST
+                &bull; Transport - Logistique - CACES 1A <br />
+                &bull; Instructeur, formation aux postes des intérimaires. - SST
                 </p>
               </div>
             </div>
@@ -54,7 +54,8 @@ const Exp = () => {
               </div>
               <div className="exp-description">
                 <p>
-                  Commis de salle / Plongeuse <br /> Femme de chambre
+                &bull; Commis de salle / Plongeuse <br />
+                &bull; Femme de chambre
                 </p>
               </div>
             </div>
@@ -75,8 +76,8 @@ const Exp = () => {
               </div>
               <div className="exp-description">
                 <p>
-                  Serveuse <br />
-                  Femme de chambre
+                &bull; Serveuse <br />
+                &bull; Femme de chambre
                 </p>
               </div>
             </div>
@@ -96,7 +97,7 @@ const Exp = () => {
                 <p>Stage serveuse</p>
               </div>
               <div className="exp-description">
-                <p>Serveuse</p>
+                <p>	&bull; Serveuse</p>
               </div>
             </div>
           </div>
@@ -115,7 +116,7 @@ const Exp = () => {
                 <p>Stage serveuse</p>
               </div>
               <div className="exp-description">
-                <p>Serveuse</p>
+                <p> &bull; Serveuse</p>
               </div>
             </div>
           </div>
@@ -134,7 +135,7 @@ const Exp = () => {
                 <p>ORNAING Stage accueil</p>
               </div>
               <div className="exp-description">
-                <p>Accueil</p>
+                <p> &bull; Accueil</p>
               </div>
             </div>
           </div>
@@ -153,7 +154,7 @@ const Exp = () => {
                 <p>Stage accueil</p>
               </div>
               <div className="exp-description">
-                <p>Acueil</p>
+                <p>	&bull; Acueil</p>
               </div>
             </div>
           </div>
@@ -172,7 +173,7 @@ const Exp = () => {
                 <p>Stage secrétariat</p>
               </div>
               <div className="exp-description">
-                <p>Secrétariat</p>
+                <p> &bull; Secrétariat</p>
               </div>
             </div>
           </div>
@@ -191,7 +192,7 @@ const Exp = () => {
                 <p>Stage secrétariat</p>
               </div>
               <div className="exp-description">
-                <p>Secrétariat</p>
+                <p> &bull; Secrétariat</p>
               </div>
             </div>
           </div>
