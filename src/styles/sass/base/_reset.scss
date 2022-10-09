@@ -11,3 +11,23 @@
 html, body {
     overflow-x      : hidden; 
 }
+
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #1d223e;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #1d223e;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1d223e;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
