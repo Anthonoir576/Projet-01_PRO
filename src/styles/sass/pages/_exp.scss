@@ -1,0 +1,23 @@
+body {
+    & .exp-page {
+        display          : flex;
+        width            : 100vw;
+        height           : 100vh;
+        flex-direction   : column;
+        justify-content  : space-between;
+        & .footer {
+            text-align       : center;
+            padding          : 1rem .65rem;
+            background-color : rgba(29, 34, 62, 1);
+            border-top       : 4px solid rgb(242, 76, 76);
+            color            : white;
+        }
+
+        & h2 {
+            text-align: center;
+            background: rgb(242, 76, 76);
+            color: white;
+            padding: 15px 5px 10px 5px;
+        }
+    }
+}
