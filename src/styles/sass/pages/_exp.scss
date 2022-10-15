@@ -23,10 +23,11 @@ body {
         }
 
         & .exp-container {
+
             & .exp-main {
                 display         : flex;
                 justify-content : center;
-                margin-bottom   : 2rem;
+                
 
 
                 & .exp-content {
@@ -48,6 +49,14 @@ body {
                     text-align  : right; 
                     color       : rgb(163, 163, 163);
                 }
+            }
+
+            & .separator {
+                width       : 35%;
+                height      : 0.05rem;
+                max-height  : 0.05rem;
+                background  : rgba(29, 34, 62, 1);
+                margin      : 1rem auto 1rem auto;
             }
         }
     }

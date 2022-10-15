@@ -38,6 +38,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -60,6 +61,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -82,6 +84,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -101,6 +104,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -120,6 +124,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -139,6 +144,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -158,6 +164,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
@@ -177,6 +184,7 @@ const Exp = () => {
               </div>
             </div>
           </div>
+          <hr className="separator" />
           <div className="exp-main">
             <div className="exp-date">
               {" "}
