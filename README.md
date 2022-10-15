@@ -1,6 +1,6 @@
 # CV NUMERIQUE
 
-## MY WEB SITE : 
+## WEB SITE : 
 
 ![screen Site](./documents/readmepicture.png)
 
