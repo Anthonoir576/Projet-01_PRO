@@ -9,8 +9,14 @@ import PepiconsLetter         from "../components/Icons/PepiconsLetter";
 import UimFacebookF           from "../components/Icons/UimFacebookF";
 import GisPosition            from "../components/Icons/GisPosition";
 import { CopyToClipboard }    from 'react-copy-to-clipboard';
+import { alertPhoneNumber,
+         alertEmail,
+         alertFb,
+         alertAdress }        from "../components/Utils/Alerts";
 //- --------------------------------------------------------
 //- ########################################################
+
+
 
 //* ########################################################
 //* ----------------- APP => CONTACT -----------------------
@@ -36,16 +42,29 @@ const Contact = () => {
             </div>
             <div className="info-txt">
               <CopyToClipboard text="06 64 23 45 67">
-                <p onClick={}>
+                <p onClick={alertPhoneNumber}>
                   06 64 23 45 67
                 </p>
               </CopyToClipboard>
-              <p>wojdowskiemy@gmail.com</p>
-              <p>Emelyne WOJDOWSKI</p>
-              <p>
-                Montigny-En-Ostrevent, 59182, <br />
-                HAUT-DE-FRANCE, FRANCE
-              </p>
+              <CopyToClipboard text="wojdowskiemy@gmail.com">
+                <p onClick={alertEmail}>
+                  wojdowskiemy@gmail.com
+                </p>
+              </CopyToClipboard>
+              
+              <CopyToClipboard text="Emelyne WOJDOWSKI">
+                <p onClick={alertFb}>
+                  Emelyne WOJDOWSKI
+                </p>
+              </CopyToClipboard>
+              
+              <CopyToClipboard text=" 19b rue du capitaine wazny, Montigny-En-Ostrevent, 59182, HAUT-DE-FRANCE, FRANCE">
+                <p onClick={alertAdress}>
+                  Montigny-En-Ostrevent, 59182, <br />
+                  HAUT-DE-FRANCE, FRANCE
+                </p>
+              </CopyToClipboard>
+         
             </div>
           </div>
         </div>
@@ -58,6 +77,9 @@ const Contact = () => {
 };
 //* --------------------------------------------------------
 //* ########################################################
+
+
+
 
 //~ ########################################################
 //~ --------------------- EXPORT ---------------------------
