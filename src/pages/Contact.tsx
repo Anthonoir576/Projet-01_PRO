@@ -1,13 +1,14 @@
 //- ########################################################
 //- --------------------- IMPORT ---------------------------
 //- ########################################################
-import React            from "react";
-import Footer           from "../components/Footer";
-import BiTelephoneFill  from "../components/Icons/BiTelephoneFill";
-import Navbar           from "../components/Navbar";
-import PepiconsLetter   from "../components/Icons/PepiconsLetter";
-import UimFacebookF     from "../components/Icons/UimFacebookF";
-import GisPosition      from "../components/Icons/GisPosition";
+import React                  from "react";
+import Footer                 from "../components/Footer";
+import BiTelephoneFill        from "../components/Icons/BiTelephoneFill";
+import Navbar                 from "../components/Navbar";
+import PepiconsLetter         from "../components/Icons/PepiconsLetter";
+import UimFacebookF           from "../components/Icons/UimFacebookF";
+import GisPosition            from "../components/Icons/GisPosition";
+import { CopyToClipboard }    from 'react-copy-to-clipboard';
 //- --------------------------------------------------------
 //- ########################################################
 
@@ -34,7 +35,11 @@ const Contact = () => {
               <GisPosition     className="icon-4" />
             </div>
             <div className="info-txt">
-              <p>06 64 23 45 67</p>
+              <CopyToClipboard text="06 64 23 45 67">
+                <p onClick={}>
+                  06 64 23 45 67
+                </p>
+              </CopyToClipboard>
               <p>wojdowskiemy@gmail.com</p>
               <p>Emelyne WOJDOWSKI</p>
               <p>
