@@ -39,9 +39,33 @@ body {
     
                 & .info-txt {
                     & p {
+                        cursor     : pointer;
+                        position   : relative;
                         color      : white;
                         font-size  : 1.5rem;
                         margin     : 2rem 0;
+
+                        &:hover {
+                            &::after {
+                                content    : "";
+                                display    : block;
+                                position   : absolute;
+                                bottom     : -10px;
+                                left       : 0;
+                                width      : 30%;
+                                height     : 2px;
+                                background : white;
+                                animation: hoverNav2 0.45s forwards;
+                            }
+                            @keyframes hoverNav2 {
+                                0% {
+                                  width: 0%;
+                                }
+                                100% {
+                                  width: 30%;
+                                }
+                              }
+                        }
                     }
                     & :first-child {
                         margin-top: 1.5rem;
