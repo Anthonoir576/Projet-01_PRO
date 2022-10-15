@@ -1,137 +1,164 @@
 @media only screen and (max-width: 1600px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
-                         margin : 8rem 10rem 0 0;
-                     }
-                 }
-             }
-        } 
-     }
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
+                        margin: 8rem 10rem 0 0;
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 1380px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
-                         margin : 8rem 5rem 0 0;
-                     }
-                 }
-             }
-        } 
-     }
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
+                        margin: 8rem 5rem 0 0;
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 1240px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
-                         margin : 8rem 3rem 0 0;
-                     }
-                 }
-             }
-        } 
-     }
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
+                        margin: 8rem 3rem 0 0;
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 860px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
-                        margin : 15rem 3rem 1rem 0;
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
+                        margin: 15rem 3rem 1rem 0;
+
                         & h1 {
                             margin-bottom: 2rem;
                         }
 
-                     }
-                 }
-             }
-        } 
-     }
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 650px) {
     body {
         & #root {
             & .all {
                 & .information-contact {
-                  & .information-container {
-                    display: block;
-                    text-align: left;
-                    & .information-txt {
-                        & .info-icons {
-                            margin: -0.25rem 2rem 0 0;
+                    & .information-container {
+                        display: block;
+                        text-align: left;
+                        padding: 5rem 0;
+
+                        & .information-txt {
+                            & .info-icons {
+                                margin: -0.25rem 2rem 0 0;
+
+                                & .icon-2 {
+                                    margin-top: 35px;
+                                }
+
+                                & .icon-3 {
+                                    margin-top: 35px;
+                                }
+
+                                & .icon-4 {
+                                    margin-top: 35px;
+                                }
+                            }
                         }
                     }
-                  }  
                 }
             }
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
-                        margin : 20rem auto 1rem auto;
+
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
+                        margin: 20rem auto 1rem auto;
+
                         & h1 {
                             text-align: center;
                             margin-bottom: 15rem;
                         }
+
                         & .aboutMe {
                             text-align: center;
-                            margin-top : 3rem;
+                            margin-top: 3rem;
                         }
 
-                     }
-                 }
-             }
-        } 
-     }
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 608px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
 
                         & h1 {
                             font-size: 4rem;
-                            margin-bottom : 7rem;
+                            margin-bottom: 7rem;
                         }
-                     }
-                 }
-             }
-        } 
-     }
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 570px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
+            & .accueil {
+                & .accueil-first {
                     & .img-accueil {
-                        position  : absolute;
-                        top       : 3rem;
-                        left      : 0%;
-                        right     : 0%;
+                        position: absolute;
+                        top: 3rem;
+                        left: 0%;
+                        right: 0%;
+
                         & img {
-                            border     : 4px solid rgb(242, 76, 76); 
-                             
+                            border: 4px solid rgb(242, 76, 76);
+
                         }
                     }
 
-                     & .accueil-container {
-                        margin : 25rem auto 1rem auto;
+                    & .accueil-container {
+                        margin: 25rem auto 1rem auto;
+
                         & h1 {
-                            font-size    : 4rem;
-                            margin        : 0;
-                            margin-bottom : 5rem;
+                            font-size: 4rem;
+                            margin: 0;
+                            margin-bottom: 5rem;
                         }
-                     }
-                 }
-             }
+                    }
+                }
+            }
+
             & .exp-page {
                 & .exp-txt {
                     & .exp-container {
@@ -139,101 +166,140 @@
                             padding: 10px;
                             text-align: left;
                             display: block;
+
                             & .exp-content {
-                                min-width       : 0px; 
+                                min-width: 0px;
                             }
 
                             & .exp-date {
-                                margin        : 0 10px 1rem 0;
-                                background    : rgb(242, 76, 76);
-                                color         : white;
-                                padding       : 10px 0px 10px 10px;
-                                text-align    : left;
-                                border-radius : 5px;
+                                margin: 0 10px 1rem 0;
+                                background: rgb(242, 76, 76);
+                                color: white;
+                                padding: 10px 0px 10px 10px;
+                                text-align: left;
+                                border-radius: 5px;
                             }
                         }
                     }
                 }
             }
-        } 
-     }
+        }
+    }
 }
+
 @media only screen and (max-width: 500px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                    & .img-accueil {
+            & .accueil {
+                & .accueil-first {
+                    & .img-accueil {}
 
-                    }
-
-                     & .accueil-container {
+                    & .accueil-container {
                         & h1 {
                             font-size: 2.5rem;
                         }
+
                         & .aboutMe a {
                             font-size: 1.5rem;
                         }
-                     }
-                 }
-             }
-        } 
-     }
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 450px) {
     body {
         & #root {
             & .all {
                 & .information-contact {
-                  & .information-container {
-                    display: block;
-                    text-align: left;
-                    & .information-txt {
-                        & .info-icons {
-                            margin: -0.25rem 2rem 0 0;
-                        }
-                        & .info-txt {
-                            font-size: 1rem;
+                    & .information-container {
+                        display: block;
+                        text-align: left;
+
+                        & .information-txt {
+                            & .info-icons {
+                                margin: -0.25rem 2rem 0 0;
+
+                                & svg {
+                                    width: 1rem;
+                                    height: 1rem;
+                                }
+                            }
+
+                            & .info-txt {
+                                font-size: 1rem;
+                            }
                         }
                     }
-                  }  
                 }
             }
-        } 
-     }
+            & .second,
+            .footer,
+            p {
+
+                font-size: .85rem;
+
+            }
+        }
+    }
 }
+
 @media only screen and (max-width: 450px) {
     body {
         & #root {
             & .all {
                 & .information-contact {
-                  & .information-container {
-                    & .information-txt {
-                        & .info-txt p {
-                            font-size: 1rem;
+                    & .information-container {
+                        & .information-txt {
+                            & .info-txt p {
+                                font-size: 1rem;
+                            }
                         }
                     }
-                  }  
                 }
             }
-        } 
-     }
+        }
+    }
 }
+
 @media only screen and (max-width: 330px) {
     body {
         & #root {
-             & .accueil {
-                 & .accueil-first {
-                     & .accueil-container {
+            & .accueil {
+                & .accueil-first {
+                    & .accueil-container {
                         & h1 {
                             font-size: 2rem;
                         }
+
                         & .aboutMe a {
                             font-size: 1rem;
                         }
-                     }
-                 }
-             }
-        } 
-     }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    body {
+        & #root {
+            & .all {
+                & .information-contact {
+                    & .information-container {
+                        & .information-txt {
+                            & .info-icons {
+                                margin-right: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -28,10 +28,10 @@ const Contact = () => {
           </div>
           <div className="information-txt">
             <div className="info-icons">
-              <BiTelephoneFill />
-              <PepiconsLetter />
-              <UimFacebookF />
-              <GisPosition />
+              <BiTelephoneFill className="icon-1" />
+              <PepiconsLetter  className="icon-2" />
+              <UimFacebookF    className="icon-3" />
+              <GisPosition     className="icon-4" />
             </div>
             <div className="info-txt">
               <p>06 64 23 45 67</p>
