@@ -1,13 +1,13 @@
 //- ########################################################
 //- --------------------- IMPORT ---------------------------
 //- ########################################################
-import React from "react";
-import Footer from "../components/Footer";
-import BiTelephoneFill from "../components/Icons/BiTelephoneFill";
-import Navbar from "../components/Navbar";
-import PepiconsLetter from "../components/Icons/PepiconsLetter";
-import UimFacebookF from "../components/Icons/UimFacebookF";
-import GisPosition from "../components/Icons/GisPosition";
+import React            from "react";
+import Footer           from "../components/Footer";
+import BiTelephoneFill  from "../components/Icons/BiTelephoneFill";
+import Navbar           from "../components/Navbar";
+import PepiconsLetter   from "../components/Icons/PepiconsLetter";
+import UimFacebookF     from "../components/Icons/UimFacebookF";
+import GisPosition      from "../components/Icons/GisPosition";
 //- --------------------------------------------------------
 //- ########################################################
 
